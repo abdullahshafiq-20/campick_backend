@@ -64,7 +64,7 @@ export const nlQueryController = {
             Only return the text based SQL query without any explanation or code block markers.
             Natural language query: "${query}"`;
 
-            const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+            const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-lite" });
             const sqlResult = await model.generateContent(sqlPrompt);
             
             // Clean the SQL query

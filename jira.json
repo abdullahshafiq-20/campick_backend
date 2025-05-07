@@ -1,0 +1,107 @@
+[
+    {
+      "epic": "User Authentication & Management",
+      "stories": [
+        {
+          "story": "Implement multi-method authentication (email/password, Google OAuth)",
+          "tasks": [
+            { "task": "Design user schema and roles", "assignee": "Member 1" },
+            { "task": "Develop registration & login endpoints", "assignee": "Member 1" },
+            { "task": "Integrate Google OAuth", "assignee": "Member 2" },
+            { "task": "Implement JWT session management", "assignee": "Member 1" },
+            { "task": "Enforce domain-restricted registration", "assignee": "Member 1" }
+          ]
+        },
+        {
+          "story": "Profile management and role-based access",
+          "tasks": [
+            { "task": "Create profile update endpoints", "assignee": "Member 2" },
+            { "task": "Implement role-based middleware", "assignee": "Member 2" }
+          ]
+        }
+      ]
+    },
+    {
+      "epic": "Order Management",
+      "stories": [
+        {
+          "story": "Real-time order placement and tracking",
+          "tasks": [
+            { "task": "Design order schema", "assignee": "Member 2" },
+            { "task": "Develop order placement API", "assignee": "Member 2" },
+            { "task": "Implement WebSocket for live updates", "assignee": "Member 3" },
+            { "task": "Add order history endpoints", "assignee": "Member 2" }
+          ]
+        },
+        {
+          "story": "Order status and cancellation",
+          "tasks": [
+            { "task": "Implement status transitions", "assignee": "Member 3" },
+            { "task": "Add cancellation logic", "assignee": "Member 3" }
+          ]
+        }
+      ]
+    },
+    {
+      "epic": "Payment System",
+      "stories": [
+        {
+          "story": "AI-powered payment verification",
+          "tasks": [
+            { "task": "Integrate payment screenshot upload", "assignee": "Member 3" },
+            { "task": "Connect Gemini AI for verification", "assignee": "Member 3" },
+            { "task": "Support multiple payment methods", "assignee": "Member 3" },
+            { "task": "Implement payment status tracking", "assignee": "Member 3" }
+          ]
+        },
+        {
+          "story": "Refund and transaction history",
+          "tasks": [
+            { "task": "Develop refund logic", "assignee": "Member 2" },
+            { "task": "Add transaction history endpoints", "assignee": "Member 2" }
+          ]
+        }
+      ]
+    },
+    {
+      "epic": "Vendor/Shop Management",
+      "stories": [
+        {
+          "story": "Shop profile and menu management",
+          "tasks": [
+            { "task": "Design shop and menu schemas", "assignee": "Member 1" },
+            { "task": "CRUD for menu items", "assignee": "Member 1" },
+            { "task": "Shop analytics dashboard", "assignee": "Member 2" }
+          ]
+        },
+        {
+          "story": "Order processing for vendors",
+          "tasks": [
+            { "task": "Vendor order management endpoints", "assignee": "Member 1" },
+            { "task": "Real-time vendor notifications", "assignee": "Member 3" }
+          ]
+        }
+      ]
+    },
+    {
+      "epic": "Notifications & Reporting",
+      "stories": [
+        {
+          "story": "Real-time and email notifications",
+          "tasks": [
+            { "task": "WebSocket notification system", "assignee": "Member 3" },
+            { "task": "Email notification integration", "assignee": "Member 2" },
+            { "task": "User notification preferences", "assignee": "Member 2" }
+          ]
+        },
+        {
+          "story": "Analytics and reporting",
+          "tasks": [
+            { "task": "Sales and revenue reports", "assignee": "Member 2" },
+            { "task": "Popular items and trends", "assignee": "Member 2" }
+          ]
+        }
+      ]
+    }
+  ]
+  
